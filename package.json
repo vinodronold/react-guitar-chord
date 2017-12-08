@@ -1,0 +1,34 @@
+{
+  "name": "react-guitar-chord",
+  "version": "1.0.0",
+  "description": "React component to draw SVG Guitar chords",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodronold/react-guitar-chord.git"
+  },
+  "keywords": ["guitar", "chords"],
+  "author": "Vinod Ronold <vinodronoldbe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinodronold/react-guitar-chord/issues"
+  },
+  "homepage": "https://github.com/vinodronold/react-guitar-chord#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "webpack": "^3.10.0"
+  }
+}
