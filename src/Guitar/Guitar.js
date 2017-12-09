@@ -14,11 +14,12 @@ const _propTypes = {
 
 const _defaultProps = {
   quality: 'MAJ',
-  fill: '#222',
-  stroke: '#FFF'
+  height: '15rem',
+  fill: '#FFF',
+  stroke: '#222'
 }
 
-const Guitar = ({ chord, fill, quality, stroke, style, ...props }) => {
+const Guitar = ({ chord, fill, height, quality, stroke, style, ...props }) => {
   let ChordShape = guitarChordShape[chord][quality]
   let start = ChordShape.s ? ChordShape.s : 1
   return (
@@ -44,19 +45,19 @@ const Guitar = ({ chord, fill, quality, stroke, style, ...props }) => {
           strokeLinecap="null"
           strokeLinejoin="null"
         />
-        <SVGText x="95" y="20" fontSize="16">
-          {GetChordName(r, q, x)}
+        <SVGText x={95} y={20} fontSize={16}>
+          {`${chord}${quality === 'MIN' ? 'm' : ''}`}
         </SVGText>
-        <SVGText x="9.5" y="50">
+        <SVGText x={9.5} y={50}>
           {start}
         </SVGText>
-        <SVGText x="9.5" y="100">
+        <SVGText x={9.5} y={100}>
           {start + 1}
         </SVGText>
-        <SVGText x="9.5" y="150">
+        <SVGText x={9.5} y={150}>
           {start + 2}
         </SVGText>
-        <SVGText x="9.5" y="200">
+        <SVGText x={9.5} y={200}>
           {start + 3}
         </SVGText>
         <Barre fret={ChordShape.b} stroke={stroke} />
@@ -80,4 +81,7 @@ const Guitar = ({ chord, fill, quality, stroke, style, ...props }) => {
   )
 }
 
-export default GuitarChord
+Guitar.propTypes = _propTypes
+Guitar.defaultProps = _defaultProps
+
+export default Guitar

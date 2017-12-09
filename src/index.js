@@ -1,2 +1,2 @@
 import Guitar from './Guitar'
-export { Guitar }
+export default Guitar
