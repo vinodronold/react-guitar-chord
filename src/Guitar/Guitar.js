@@ -14,14 +14,18 @@ const _propTypes = {
 
 const _defaultProps = {
   quality: 'MAJ',
-  height: '15rem',
+  height: '15em',
   fill: '#FFF',
   stroke: '#222'
 }
 
 const Guitar = ({ chord, fill, height, quality, stroke, style, ...props }) => {
-  let ChordShape = guitarChordShape[chord][quality]
-  let start = ChordShape.s ? ChordShape.s : 1
+  if ([...'ABCDEFG'].indexOf(chord.substring(0, 1)) === -1) {
+    throw Error(`${chord} is not a valid chord`)
+  }
+  let chordShape = guitarChordShape[chord][quality]
+  let start = chordShape.s ? chordShape.s : 1
+  let chordName = `${chord}${quality === 'MIN' ? 'm' : ''}`
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,23 +49,28 @@ const Guitar = ({ chord, fill, height, quality, stroke, style, ...props }) => {
           strokeLinecap="null"
           strokeLinejoin="null"
         />
-        <SVGText x={95} y={20} fontSize={16}>
-          {`${chord}${quality === 'MIN' ? 'm' : ''}`}
+        <SVGText
+          x={95 - (chordName.length - 1) * 4}
+          y={20}
+          fontSize={16}
+          fill={stroke}
+        >
+          {chordName}
         </SVGText>
-        <SVGText x={9.5} y={50}>
+        <SVGText x={9.5} y={50} fill={stroke}>
           {start}
         </SVGText>
-        <SVGText x={9.5} y={100}>
+        <SVGText x={9.5} y={100} fill={stroke}>
           {start + 1}
         </SVGText>
-        <SVGText x={9.5} y={150}>
+        <SVGText x={9.5} y={150} fill={stroke}>
           {start + 2}
         </SVGText>
-        <SVGText x={9.5} y={200}>
+        <SVGText x={9.5} y={200} fill={stroke}>
           {start + 3}
         </SVGText>
-        <Barre fret={ChordShape.b} stroke={stroke} />
-        {ChordShape.p.map(
+        <Barre fret={chordShape.b} stroke={stroke} />
+        {chordShape.p.map(
           (f, i) =>
             f > 0 && f <= 4 ? (
               <ellipse

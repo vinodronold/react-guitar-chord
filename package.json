@@ -4,7 +4,7 @@
   "description": "React component to draw SVG Guitar chords",
   "main": "build/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --silent",
     "start": "webpack --watch",
     "build": "webpack"
   },
@@ -29,6 +29,7 @@
     "jest": "^21.2.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
     "webpack": "^3.10.0"
   }
 }
