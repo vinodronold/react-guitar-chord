@@ -22,7 +22,8 @@
   "homepage": "https://github.com/vinodronold/react-guitar-chord#readme",
   "files": ["build"],
   "peerDependencies": {
-    "react": "^16.2.0"
+    "react": ">=15",
+    "prop-types": ">=15"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
