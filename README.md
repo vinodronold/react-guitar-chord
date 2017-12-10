@@ -27,9 +27,8 @@ export default () => (
   </div>
 )
 ```
-![C Major](https://raw.githubusercontent.com/vinodronold/react-guitar-chord/master/images/CMAJ.png "C Major")
-![C Minor](https://raw.githubusercontent.com/vinodronold/react-guitar-chord/master/images/CMIN.png "C Minor")
 
+![C Chords](https://raw.githubusercontent.com/vinodronold/react-guitar-chord/master/images/C_CHORD.png "C Chords")
 
 ## Properties
 

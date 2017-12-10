@@ -19,6 +19,9 @@
     "url": "https://github.com/vinodronold/react-guitar-chord/issues"
   },
   "homepage": "https://github.com/vinodronold/react-guitar-chord#readme",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
