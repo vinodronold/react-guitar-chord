@@ -20,9 +20,16 @@ yarn add react-guitar-chord
 import React from 'react'
 import GuitarChord from 'react-guitar-chord'
 
-const AMajor = () => <GuitarChord chord={'A'} />
-const AMinor = () => <GuitarChord chord={'A'} quality={'MIN'} />
+export default () => (
+  <div>
+    <GuitarChord chord={'C'} />
+    <GuitarChord chord={'C'} quality={'MIN'} />
+  </div>
+)
 ```
+![C Major](https://raw.githubusercontent.com/vinodronold/react-guitar-chord/master/images/CMAJ.png "C Major")
+![C Minor](https://raw.githubusercontent.com/vinodronold/react-guitar-chord/master/images/CMIN.png "C Minor")
+
 
 ## Properties
 
