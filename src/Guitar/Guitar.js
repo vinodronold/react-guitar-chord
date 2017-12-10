@@ -1,5 +1,5 @@
 import React from 'react'
-import { string, object } from 'prop-types'
+import { string, object, oneOf } from 'prop-types'
 import SVGText from './SVGText'
 import Barre from './Barre'
 import guitarChordShape from './guitarChordShape'
@@ -7,7 +7,7 @@ import guitarChordShape from './guitarChordShape'
 const _propTypes = {
   chord: string.isRequired,
   fill: string,
-  quality: string,
+  quality: oneOf('MAJ', 'MIN'),
   stroke: string,
   style: object
 }
