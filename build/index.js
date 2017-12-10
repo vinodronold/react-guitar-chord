@@ -562,8 +562,8 @@ function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in ob
 
 var _propTypes = {
   chord: _propTypes2.string.isRequired,
-  fill: _propTypes2.string,
-  quality: _propTypes2.string,
+  background: _propTypes2.string,
+  quality: (0, _propTypes2.oneOf)(['MAJ', 'MIN']),
   stroke: _propTypes2.string,
   style: _propTypes2.object
 };
@@ -571,18 +571,18 @@ var _propTypes = {
 var _defaultProps = {
   quality: 'MAJ',
   height: '15em',
-  fill: '#FFF',
+  background: '#FFF',
   stroke: '#222'
 };
 
 var Guitar = function Guitar(_ref) {
   var chord = _ref.chord,
-      fill = _ref.fill,
+      background = _ref.background,
       height = _ref.height,
       quality = _ref.quality,
       stroke = _ref.stroke,
       style = _ref.style,
-      props = _objectWithoutProperties(_ref, ['chord', 'fill', 'height', 'quality', 'stroke', 'style']);
+      props = _objectWithoutProperties(_ref, ['chord', 'background', 'height', 'quality', 'stroke', 'style']);
 
   if ([].concat(_toConsumableArray('ABCDEFG')).indexOf(chord.substring(0, 1)) === -1) {
     throw Error(chord + ' is not a valid chord');
@@ -601,11 +601,11 @@ var Guitar = function Guitar(_ref) {
         width: 'auto'
       }, style)
     }, props),
-    _react2.default.createElement('path', { fill: fill, d: 'M-1-1h202v252H-1z' }),
+    _react2.default.createElement('path', { fill: background, d: 'M-1-1h202v252H-1z' }),
     _react2.default.createElement(
       'g',
       { stroke: stroke },
-      _react2.default.createElement('path', { fill: fill, strokeWidth: '1.5', d: 'M25 25h150v200H25z' }),
+      _react2.default.createElement('path', { fill: background, strokeWidth: '1.5', d: 'M25 25h150v200H25z' }),
       _react2.default.createElement('path', {
         fill: 'none',
         strokeOpacity: 'null',

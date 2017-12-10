@@ -34,7 +34,7 @@ export default () => (
 
 | Props      | Description       | Required | Default Value |
 | ---------- | ----------------- | -------- | ------------- |
-| chords     | Name of the Chord | Required |               |
+| chord      | Name of the Chord | Required |               |
 | quality    | MAJ or MIN        | Optional | 'MAJ' (Major) |
 | height     | Height of the SVG | Optional | 15em          |
 | background | Background Color  | Optional | #FFF          |

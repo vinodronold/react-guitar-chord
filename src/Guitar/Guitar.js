@@ -6,8 +6,8 @@ import guitarChordShape from './guitarChordShape'
 
 const _propTypes = {
   chord: string.isRequired,
-  fill: string,
-  quality: oneOf('MAJ', 'MIN'),
+  background: string,
+  quality: oneOf(['MAJ', 'MIN']),
   stroke: string,
   style: object
 }
@@ -15,11 +15,19 @@ const _propTypes = {
 const _defaultProps = {
   quality: 'MAJ',
   height: '15em',
-  fill: '#FFF',
+  background: '#FFF',
   stroke: '#222'
 }
 
-const Guitar = ({ chord, fill, height, quality, stroke, style, ...props }) => {
+const Guitar = ({
+  chord,
+  background,
+  height,
+  quality,
+  stroke,
+  style,
+  ...props
+}) => {
   if ([...'ABCDEFG'].indexOf(chord.substring(0, 1)) === -1) {
     throw Error(`${chord} is not a valid chord`)
   }
@@ -38,9 +46,9 @@ const Guitar = ({ chord, fill, height, quality, stroke, style, ...props }) => {
       }}
       {...props}
     >
-      <path fill={fill} d="M-1-1h202v252H-1z" />
+      <path fill={background} d="M-1-1h202v252H-1z" />
       <g stroke={stroke}>
-        <path fill={fill} strokeWidth="1.5" d="M25 25h150v200H25z" />
+        <path fill={background} strokeWidth="1.5" d="M25 25h150v200H25z" />
         <path
           fill="none"
           strokeOpacity="null"
