@@ -37,5 +37,6 @@
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "webpack": "^3.10.0"
-  }
+  },
+  "dependencies": {}
 }
