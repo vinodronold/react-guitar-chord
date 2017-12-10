@@ -14,6 +14,8 @@ or
 yarn add react-guitar-chord
 ```
 
+[DEMO](https://react-guitar-chord.now.sh/)
+
 ## Example
 
 ```javascript
