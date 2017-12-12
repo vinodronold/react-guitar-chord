@@ -1,6 +1,6 @@
 {
   "name": "react-guitar-chord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to draw SVG Guitar chords",
   "main": "build/index.js",
   "scripts": {
