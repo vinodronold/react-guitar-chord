@@ -2683,3 +2683,5 @@ exports[`Guitar Gm should match the sanpshot 1`] = `
   </g>
 </svg>
 `;
+
+exports[`Guitar X# should match the sanpshot 1`] = `null`;

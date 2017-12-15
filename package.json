@@ -13,16 +13,21 @@
     "type": "git",
     "url": "git+https://github.com/vinodronold/react-guitar-chord.git"
   },
-  "keywords": ["guitar", "chords"],
+  "keywords": [
+    "guitar",
+    "chords"
+  ],
   "author": "Vinod Ronold <vinodronoldbe@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vinodronold/react-guitar-chord/issues"
   },
   "homepage": "https://github.com/vinodronold/react-guitar-chord#readme",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "peerDependencies": {
-    "react": ">=15",
+    "react": ">=16",
     "prop-types": ">=15"
   },
   "devDependencies": {
@@ -36,6 +41,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
+    "uglifyjs-webpack-plugin": "^1.1.4",
     "webpack": "^3.10.0"
   },
   "dependencies": {}
