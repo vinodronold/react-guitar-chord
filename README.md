@@ -2,6 +2,10 @@
 
 React component to draw SVG Guitar chords.
 
+[![Build Status](https://travis-ci.org/vinodronold/react-guitar-chord.svg?branch=master)](https://travis-ci.org/vinodronold/react-guitar-chord)
+
+[![Coverage Status](https://coveralls.io/repos/github/vinodronold/react-guitar-chord/badge.svg)](https://coveralls.io/github/vinodronold/react-guitar-chord)
+
 ## Installation
 
 ```
