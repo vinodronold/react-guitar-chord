@@ -1,12 +1,12 @@
 import React from 'react'
-import { number, string, node } from 'prop-types'
+import propTypes from 'prop-types'
 
 const _propTypes = {
-  x: number.isRequired,
-  y: number.isRequired,
-  fontSize: number,
-  fill: string,
-  children: node.isRequired
+  x: propTypes.number.isRequired,
+  y: propTypes.number.isRequired,
+  fontSize: propTypes.number,
+  fill: propTypes.string,
+  children: propTypes.node.isRequired
 }
 
 const _defaultProps = {

@@ -1,15 +1,28 @@
 import React from 'react'
-import { string, object, oneOf } from 'prop-types'
+import propTypes from 'prop-types'
 import SVGText from './SVGText'
 import Barre from './Barre'
 import guitarChordShape from './guitarChordShape'
 
 const _propTypes = {
-  chord: string.isRequired,
-  background: string,
-  quality: oneOf(['MAJ', 'MIN']),
-  stroke: string,
-  style: object
+  chord: propTypes.oneOf([
+    'A',
+    'A#',
+    'B',
+    'C',
+    'C#',
+    'D',
+    'D#',
+    'E',
+    'F',
+    'F#',
+    'G',
+    'G#'
+  ]).isRequired,
+  background: propTypes.string,
+  quality: propTypes.oneOf(['MAJ', 'MIN']),
+  stroke: propTypes.string,
+  style: propTypes.object
 }
 
 const _defaultProps = {
@@ -28,10 +41,11 @@ const Guitar = ({
   style,
   ...props
 }) => {
-  if ([...'ABCDEFG'].indexOf(chord.substring(0, 1)) === -1) {
-    throw Error(`${chord} is not a valid chord`)
+  let csq = guitarChordShape[chord]
+  if (!csq) {
+    return null
   }
-  let chordShape = guitarChordShape[chord][quality]
+  let chordShape = csq[quality]
   let start = chordShape.s ? chordShape.s : 1
   let chordName = `${chord}${quality === 'MIN' ? 'm' : ''}`
   return (

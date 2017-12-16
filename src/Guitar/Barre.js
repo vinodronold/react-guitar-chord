@@ -1,9 +1,9 @@
 import React from 'react'
-import { number, string } from 'prop-types'
+import propTypes from 'prop-types'
 
 const _propTypes = {
-  stroke: string.isRequired,
-  fret: number
+  stroke: propTypes.string.isRequired,
+  fret: propTypes.number
 }
 const _defaultProps = {
   fret: 1

@@ -121,15 +121,8 @@ describe('Guitar', () => {
     expect(_guitar).toMatchSnapshot()
   })
 
-  it('X should error', () => {
-    expect(() => {
-      renderer.create(<Guitar chord={'X'} />)
-    }).toThrowError(new Error(`X is not a valid chord`))
-  })
-
-  it('X# should error', () => {
-    expect(() => {
-      renderer.create(<Guitar chord={'X#'} />)
-    }).toThrowError(new Error(`X# is not a valid chord`))
+  it('X# should match the sanpshot', () => {
+    const _guitar = renderer.create(<Guitar chord={'X#'} />)
+    expect(_guitar).toMatchSnapshot()
   })
 })

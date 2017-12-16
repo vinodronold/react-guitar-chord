@@ -1,8 +1,8 @@
 {
   "name": "react-guitar-chord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to draw SVG Guitar chords",
-  "main": "build/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --silent",
     "test:cover": "npm run test -- --coverage ",
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/vinodronold/react-guitar-chord#readme",
   "files": ["build"],
   "peerDependencies": {
-    "react": ">=15",
+    "react": ">=16",
     "prop-types": ">=15"
   },
   "devDependencies": {
@@ -40,6 +40,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
+    "uglifyjs-webpack-plugin": "^1.1.4",
     "webpack": "^3.10.0"
   },
   "dependencies": {}

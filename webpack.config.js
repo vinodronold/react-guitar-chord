@@ -1,27 +1,31 @@
-var path = require("path")
+var path = require('path')
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+
 module.exports = {
-  entry: "./src/index.js",
+  entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, "build"),
-    filename: "index.js",
-    libraryTarget: "commonjs2"
+    path: path.resolve(__dirname, 'lib'),
+    filename: 'index.js',
+    libraryTarget: 'commonjs2'
   },
+  plugins: [new UglifyJsPlugin()],
   module: {
     rules: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, "src"),
-        exclude: /(node_modules|bower_components|build)/,
+        include: path.resolve(__dirname, 'src'),
+        exclude: /(node_modules|bower_components|lib)/,
         use: {
-          loader: "babel-loader",
+          loader: 'babel-loader',
           options: {
-            presets: ["env"]
+            presets: ['env']
           }
         }
       }
     ]
   },
   externals: {
-    react: "commonjs react"
+    react: 'commonjs react',
+    'prop-types': 'prop-types'
   }
 }
