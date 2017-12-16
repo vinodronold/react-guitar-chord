@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --silent",
     "test:cover": "npm run test -- --coverage ",
-    "test:cover:CI": "npm run test:cover && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
+    "test:cover:CI":
+      "npm run test:cover && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "start": "webpack --watch",
     "build": "webpack",
     "prepublish": "npm run test && npm run build"
@@ -15,19 +16,14 @@
     "type": "git",
     "url": "git+https://github.com/vinodronold/react-guitar-chord.git"
   },
-  "keywords": [
-    "guitar",
-    "chords"
-  ],
+  "keywords": ["guitar", "chords"],
   "author": "Vinod Ronold <vinodronoldbe@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vinodronold/react-guitar-chord/issues"
   },
   "homepage": "https://github.com/vinodronold/react-guitar-chord#readme",
-  "files": [
-    "build"
-  ],
+  "files": ["build"],
   "peerDependencies": {
     "react": ">=15",
     "prop-types": ">=15"
