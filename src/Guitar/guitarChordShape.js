@@ -10,6 +10,27 @@
  * }
  */
 
+const barreCommonEMajShape = s => ({
+  b: 1,
+  s,
+  p: [0, 3, 3, 2, 0, 0]
+})
+const barreCommonEMinShape = s => ({
+  b: 1,
+  s,
+  p: [0, 3, 3, 0, 0, 0]
+})
+const barreCommonAMajShape = s => ({
+  b: 1,
+  s,
+  p: [0, 0, 3, 3, 3, 0]
+})
+const barreCommonAMinShape = s => ({
+  b: 1,
+  s,
+  p: [0, 0, 3, 3, 2, 0]
+})
+
 const barreCommonEShape = s => ({
   MAJ: {
     b: 1,
