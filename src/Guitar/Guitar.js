@@ -19,6 +19,7 @@ const _propTypes = {
     'G',
     'G#'
   ]).isRequired,
+  alternate: propTypes.bool,
   background: propTypes.string,
   quality: propTypes.oneOf(['MAJ', 'MIN']),
   stroke: propTypes.string,
@@ -26,6 +27,7 @@ const _propTypes = {
 }
 
 const _defaultProps = {
+  alternate: false,
   quality: 'MAJ',
   height: '15em',
   background: '#FFF',
@@ -34,6 +36,7 @@ const _defaultProps = {
 
 const Guitar = ({
   chord,
+  alternate,
   background,
   height,
   quality,
@@ -45,7 +48,7 @@ const Guitar = ({
   if (!csq) {
     return null
   }
-  let chordShape = csq[quality]
+  let chordShape = csq[quality][!alternate ? 0 : 1]
   let start = chordShape.s ? chordShape.s : 1
   let chordName = `${chord}${quality === 'MIN' ? 'm' : ''}`
   return (
@@ -79,16 +82,16 @@ const Guitar = ({
         >
           {chordName}
         </SVGText>
-        <SVGText x={9.5} y={50} fill={stroke}>
+        <SVGText x={7} y={50} fill={stroke}>
           {start}
         </SVGText>
-        <SVGText x={9.5} y={100} fill={stroke}>
+        <SVGText x={7} y={100} fill={stroke}>
           {start + 1}
         </SVGText>
-        <SVGText x={9.5} y={150} fill={stroke}>
+        <SVGText x={7} y={150} fill={stroke}>
           {start + 2}
         </SVGText>
-        <SVGText x={9.5} y={200} fill={stroke}>
+        <SVGText x={7} y={200} fill={stroke}>
           {start + 3}
         </SVGText>
         <Barre fret={chordShape.b} stroke={stroke} />

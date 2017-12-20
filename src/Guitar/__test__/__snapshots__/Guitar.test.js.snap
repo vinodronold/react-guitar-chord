@@ -1,5 +1,121 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Guitar A alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      A
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      5
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      6
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      8
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
 exports[`Guitar A should match the sanpshot 1`] = `
 <svg
   style={
@@ -45,7 +161,7 @@ exports[`Guitar A should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -54,7 +170,7 @@ exports[`Guitar A should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -63,7 +179,7 @@ exports[`Guitar A should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -72,7 +188,7 @@ exports[`Guitar A should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -97,6 +213,230 @@ exports[`Guitar A should match the sanpshot 1`] = `
     />
     <ellipse
       cx={146}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar A should match the sanpshot with height 1`] = `
+<svg
+  style={
+    Object {
+      "height": "30em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      A
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      1
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      2
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      3
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      4
+    </text>
+    <ellipse
+      cx={86}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar A#/Bb alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      A#
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      6
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      9
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
       cy={100}
       fill="#222"
       rx="5"
@@ -153,7 +493,7 @@ exports[`Guitar A#/Bb should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -162,7 +502,7 @@ exports[`Guitar A#/Bb should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -171,7 +511,7 @@ exports[`Guitar A#/Bb should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -180,7 +520,7 @@ exports[`Guitar A#/Bb should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -224,7 +564,7 @@ exports[`Guitar A#/Bb should match the sanpshot 1`] = `
 </svg>
 `;
 
-exports[`Guitar A#m/Bb# should match the sanpshot 1`] = `
+exports[`Guitar A#m/Bbm alternate should match the sanpshot 1`] = `
 <svg
   style={
     Object {
@@ -269,7 +609,114 @@ exports[`Guitar A#m/Bb# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
+      y={50}
+    >
+      6
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      9
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar A#m/Bbm should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={87}
+      y={20}
+    >
+      A#m
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
       y={50}
     >
       1
@@ -278,7 +725,7 @@ exports[`Guitar A#m/Bb# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -287,7 +734,7 @@ exports[`Guitar A#m/Bb# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -296,7 +743,7 @@ exports[`Guitar A#m/Bb# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -330,6 +777,113 @@ exports[`Guitar A#m/Bb# should match the sanpshot 1`] = `
     <ellipse
       cx={146}
       cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar Am alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      Am
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      5
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      6
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      8
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
       fill="#222"
       rx="5"
       ry="5"
@@ -385,7 +939,7 @@ exports[`Guitar Am should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -394,7 +948,7 @@ exports[`Guitar Am should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -403,7 +957,7 @@ exports[`Guitar Am should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -412,7 +966,7 @@ exports[`Guitar Am should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -438,6 +992,122 @@ exports[`Guitar Am should match the sanpshot 1`] = `
     <ellipse
       cx={146}
       cy={50}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar B alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      B
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      10
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={100}
       fill="#222"
       rx="5"
       ry="5"
@@ -493,7 +1163,7 @@ exports[`Guitar B should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       2
@@ -502,7 +1172,7 @@ exports[`Guitar B should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       3
@@ -511,7 +1181,7 @@ exports[`Guitar B should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       4
@@ -520,7 +1190,7 @@ exports[`Guitar B should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       5
@@ -553,6 +1223,113 @@ exports[`Guitar B should match the sanpshot 1`] = `
     />
     <ellipse
       cx={146}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar Bm alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      Bm
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      10
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
       cy={150}
       fill="#222"
       rx="5"
@@ -609,7 +1386,7 @@ exports[`Guitar Bm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       2
@@ -618,7 +1395,7 @@ exports[`Guitar Bm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       3
@@ -627,7 +1404,7 @@ exports[`Guitar Bm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       4
@@ -636,7 +1413,7 @@ exports[`Guitar Bm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       5
@@ -669,6 +1446,122 @@ exports[`Guitar Bm should match the sanpshot 1`] = `
     />
     <ellipse
       cx={146}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar C alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      C
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      11
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
       cy={100}
       fill="#222"
       rx="5"
@@ -725,7 +1618,7 @@ exports[`Guitar C should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -734,7 +1627,7 @@ exports[`Guitar C should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -743,7 +1636,7 @@ exports[`Guitar C should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -752,7 +1645,7 @@ exports[`Guitar C should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -833,7 +1726,7 @@ exports[`Guitar C# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       4
@@ -842,7 +1735,7 @@ exports[`Guitar C# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       5
@@ -851,7 +1744,7 @@ exports[`Guitar C# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       6
@@ -860,7 +1753,7 @@ exports[`Guitar C# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       7
@@ -893,6 +1786,113 @@ exports[`Guitar C# should match the sanpshot 1`] = `
     />
     <ellipse
       cx={146}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar C#m alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={87}
+      y={20}
+    >
+      C#m
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      12
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
       cy={150}
       fill="#222"
       rx="5"
@@ -949,7 +1949,7 @@ exports[`Guitar C#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       4
@@ -958,7 +1958,7 @@ exports[`Guitar C#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       5
@@ -967,7 +1967,7 @@ exports[`Guitar C#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       6
@@ -976,7 +1976,7 @@ exports[`Guitar C#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       7
@@ -1010,6 +2010,113 @@ exports[`Guitar C#m should match the sanpshot 1`] = `
     <ellipse
       cx={146}
       cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar Cm alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      Cm
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      11
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
       fill="#222"
       rx="5"
       ry="5"
@@ -1065,7 +2172,7 @@ exports[`Guitar Cm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       3
@@ -1074,7 +2181,7 @@ exports[`Guitar Cm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       4
@@ -1083,7 +2190,7 @@ exports[`Guitar Cm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       5
@@ -1092,7 +2199,7 @@ exports[`Guitar Cm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       6
@@ -1125,6 +2232,238 @@ exports[`Guitar Cm should match the sanpshot 1`] = `
     />
     <ellipse
       cx={146}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar D alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      D
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      5
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      6
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      8
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar D alternate should match the sanpshot 2`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      D#
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      12
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      13
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      14
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
       cy={100}
       fill="#222"
       rx="5"
@@ -1181,7 +2520,7 @@ exports[`Guitar D should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -1190,7 +2529,7 @@ exports[`Guitar D should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -1199,7 +2538,7 @@ exports[`Guitar D should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -1208,7 +2547,7 @@ exports[`Guitar D should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -1289,7 +2628,7 @@ exports[`Guitar D# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       6
@@ -1298,7 +2637,7 @@ exports[`Guitar D# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       7
@@ -1307,7 +2646,7 @@ exports[`Guitar D# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       8
@@ -1316,7 +2655,7 @@ exports[`Guitar D# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       9
@@ -1349,6 +2688,113 @@ exports[`Guitar D# should match the sanpshot 1`] = `
     />
     <ellipse
       cx={146}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar D#m alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={87}
+      y={20}
+    >
+      D#m
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      12
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      13
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      14
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
       cy={150}
       fill="#222"
       rx="5"
@@ -1405,7 +2851,7 @@ exports[`Guitar D#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       6
@@ -1414,7 +2860,7 @@ exports[`Guitar D#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       7
@@ -1423,7 +2869,7 @@ exports[`Guitar D#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       8
@@ -1432,10 +2878,126 @@ exports[`Guitar D#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       9
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar Dm alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      Dm
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      5
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      6
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      8
     </text>
     <ellipse
       cx="100"
@@ -1521,7 +3083,7 @@ exports[`Guitar Dm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -1530,7 +3092,7 @@ exports[`Guitar Dm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -1539,7 +3101,7 @@ exports[`Guitar Dm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -1548,7 +3110,7 @@ exports[`Guitar Dm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -1574,6 +3136,122 @@ exports[`Guitar Dm should match the sanpshot 1`] = `
     <ellipse
       cx={176}
       cy={50}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar E alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      E
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      10
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={150}
       fill="#222"
       rx="5"
       ry="5"
@@ -1629,7 +3307,7 @@ exports[`Guitar E should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -1638,7 +3316,7 @@ exports[`Guitar E should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -1647,7 +3325,7 @@ exports[`Guitar E should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -1656,7 +3334,7 @@ exports[`Guitar E should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -1682,6 +3360,122 @@ exports[`Guitar E should match the sanpshot 1`] = `
     <ellipse
       cx={116}
       cy={50}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar Em alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      Em
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      7
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      10
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={100}
       fill="#222"
       rx="5"
       ry="5"
@@ -1737,7 +3531,7 @@ exports[`Guitar Em should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -1746,7 +3540,7 @@ exports[`Guitar Em should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -1755,7 +3549,7 @@ exports[`Guitar Em should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -1764,7 +3558,7 @@ exports[`Guitar Em should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -1781,6 +3575,122 @@ exports[`Guitar Em should match the sanpshot 1`] = `
     <ellipse
       cx={86}
       cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar F alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      F
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      11
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={150}
       fill="#222"
       rx="5"
       ry="5"
@@ -1836,7 +3746,7 @@ exports[`Guitar F should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -1845,7 +3755,7 @@ exports[`Guitar F should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -1854,7 +3764,7 @@ exports[`Guitar F should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -1863,7 +3773,7 @@ exports[`Guitar F should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -1897,6 +3807,122 @@ exports[`Guitar F should match the sanpshot 1`] = `
     <ellipse
       cx={116}
       cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar F# alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      F#
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      12
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={150}
       fill="#222"
       rx="5"
       ry="5"
@@ -1952,7 +3978,7 @@ exports[`Guitar F# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       2
@@ -1961,7 +3987,7 @@ exports[`Guitar F# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       3
@@ -1970,7 +3996,7 @@ exports[`Guitar F# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       4
@@ -1979,7 +4005,7 @@ exports[`Guitar F# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       5
@@ -2012,6 +4038,122 @@ exports[`Guitar F# should match the sanpshot 1`] = `
     />
     <ellipse
       cx={116}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar F#m alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={87}
+      y={20}
+    >
+      F#m
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      12
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
       cy={100}
       fill="#222"
       rx="5"
@@ -2068,7 +4210,7 @@ exports[`Guitar F#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       2
@@ -2077,7 +4219,7 @@ exports[`Guitar F#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       3
@@ -2086,7 +4228,7 @@ exports[`Guitar F#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       4
@@ -2095,7 +4237,7 @@ exports[`Guitar F#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       5
@@ -2120,6 +4262,122 @@ exports[`Guitar F#m should match the sanpshot 1`] = `
     <ellipse
       cx={86}
       cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar Fm alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      Fm
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      8
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      9
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      11
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={100}
       fill="#222"
       rx="5"
       ry="5"
@@ -2175,7 +4433,7 @@ exports[`Guitar Fm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -2184,7 +4442,7 @@ exports[`Guitar Fm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -2193,7 +4451,7 @@ exports[`Guitar Fm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -2202,7 +4460,7 @@ exports[`Guitar Fm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -2227,6 +4485,122 @@ exports[`Guitar Fm should match the sanpshot 1`] = `
     <ellipse
       cx={86}
       cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar G alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={95}
+      y={20}
+    >
+      G
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      3
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      4
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      5
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      6
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={56}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={100}
       fill="#222"
       rx="5"
       ry="5"
@@ -2282,7 +4656,7 @@ exports[`Guitar G should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       1
@@ -2291,7 +4665,7 @@ exports[`Guitar G should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       2
@@ -2300,7 +4674,7 @@ exports[`Guitar G should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       3
@@ -2309,7 +4683,7 @@ exports[`Guitar G should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       4
@@ -2343,6 +4717,122 @@ exports[`Guitar G should match the sanpshot 1`] = `
     />
     <ellipse
       cx={176}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar G# alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      G#
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      12
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      13
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      14
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
       cy={150}
       fill="#222"
       rx="5"
@@ -2399,7 +4889,7 @@ exports[`Guitar G# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       4
@@ -2408,7 +4898,7 @@ exports[`Guitar G# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       5
@@ -2417,7 +4907,7 @@ exports[`Guitar G# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       6
@@ -2426,7 +4916,7 @@ exports[`Guitar G# should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       7
@@ -2459,6 +4949,122 @@ exports[`Guitar G# should match the sanpshot 1`] = `
     />
     <ellipse
       cx={116}
+      cy={100}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar G#m alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={87}
+      y={20}
+    >
+      G#m
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      12
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      13
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      14
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
       cy={100}
       fill="#222"
       rx="5"
@@ -2515,7 +5121,7 @@ exports[`Guitar G#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       4
@@ -2524,7 +5130,7 @@ exports[`Guitar G#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       5
@@ -2533,7 +5139,7 @@ exports[`Guitar G#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       6
@@ -2542,7 +5148,7 @@ exports[`Guitar G#m should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       7
@@ -2567,6 +5173,122 @@ exports[`Guitar G#m should match the sanpshot 1`] = `
     <ellipse
       cx={86}
       cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Guitar Gm alternate should match the sanpshot 1`] = `
+<svg
+  style={
+    Object {
+      "height": "15em",
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  viewBox="0 0 200 250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M-1-1h202v252H-1z"
+    fill="#FFF"
+  />
+  <g
+    stroke="#222"
+  >
+    <path
+      d="M25 25h150v200H25z"
+      fill="#FFF"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M26 75h150M26 125h150M26 175h150M56 26v199M86 26v199m30-199v199m30-199v199"
+      fill="none"
+      strokeLinecap="null"
+      strokeLinejoin="null"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <text
+      fill="#222"
+      fontSize="16px"
+      stroke="none"
+      x={91}
+      y={20}
+    >
+      Gm
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={50}
+    >
+      10
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={100}
+    >
+      11
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={150}
+    >
+      12
+    </text>
+    <text
+      fill="#222"
+      fontSize="12px"
+      stroke="none"
+      x={7}
+      y={200}
+    >
+      13
+    </text>
+    <ellipse
+      cx="100"
+      cy={50}
+      fill="#222"
+      rx="80"
+      ry="3"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={86}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={116}
+      cy={150}
+      fill="#222"
+      rx="5"
+      ry="5"
+      strokeOpacity="null"
+      strokeWidth="1.5"
+    />
+    <ellipse
+      cx={146}
+      cy={100}
       fill="#222"
       rx="5"
       ry="5"
@@ -2622,7 +5344,7 @@ exports[`Guitar Gm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={50}
     >
       3
@@ -2631,7 +5353,7 @@ exports[`Guitar Gm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={100}
     >
       4
@@ -2640,7 +5362,7 @@ exports[`Guitar Gm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={150}
     >
       5
@@ -2649,7 +5371,7 @@ exports[`Guitar Gm should match the sanpshot 1`] = `
       fill="#222"
       fontSize="12px"
       stroke="none"
-      x={9.5}
+      x={7}
       y={200}
     >
       6
