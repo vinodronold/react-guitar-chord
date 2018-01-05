@@ -1,13 +1,12 @@
 {
   "name": "react-guitar-chord",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "React component to draw SVG Guitar chords",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest --silent",
     "test:cover": "npm run test -- --coverage ",
-    "test:cover:CI":
-      "npm run test:cover && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
+    "test:cover:CI": "npm run test:cover && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "start": "webpack --watch",
     "build": "webpack",
     "prepublish": "npm run test && npm run build"
@@ -16,14 +15,19 @@
     "type": "git",
     "url": "git+https://github.com/vinodronold/react-guitar-chord.git"
   },
-  "keywords": ["guitar", "chords"],
+  "keywords": [
+    "guitar",
+    "chords"
+  ],
   "author": "Vinod Ronold <vinodronoldbe@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vinodronold/react-guitar-chord/issues"
   },
   "homepage": "https://github.com/vinodronold/react-guitar-chord#readme",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "peerDependencies": {
     "react": ">=16",
     "prop-types": ">=15"
@@ -36,7 +40,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "coveralls": "^3.0.0",
-    "jest": "^21.2.1",
+    "jest": "^22.0.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
